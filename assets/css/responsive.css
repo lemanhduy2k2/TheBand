@@ -1,0 +1,141 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .book-ticket
+    {
+        padding: 0 16px;
+        background-clip: content-box;
+    }
+    .row
+    {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .btn
+    {
+        padding: 13px 16px;
+    }
+    .contact-form .form-control
+    {
+        padding: 12px;
+    }
+    #Footer .social-list i
+    {
+        font-size: 40px;
+        padding: 0 8px;
+    }
+    .social p a
+    {
+        padding: 15px 0;
+        display: inline-block;
+    }
+    .subnav > li
+{
+    padding: 5px 0;
+}
+    #navigation .subnav a
+    {
+        line-height: 48px;
+    }
+    
+}
+/* Both Tablet and Moblile */
+@media (max-width: 63.9375em)
+{
+    .contact-info
+    {
+        line-height: 2;
+    }
+}
+/* Mobile */
+@media (max-width: 46.1875em)
+{
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .s-mt-8
+    {
+        margin-top: 8px;
+    }
+    .s-full,
+    .s-col-full
+    {
+        width: 100% !important;
+    }
+     #navigation
+    {
+        display: block;
+    }
+    #navigation > li
+    {
+        display: block;
+    }
+    #header
+    {
+        overflow: hidden;
+    }
+    .search-button
+    {
+        display: none;
+    }
+    .mobile-menu
+    {
+        float: right;
+    }
+    .mobile-menu .menu-icon
+    {
+    color:#fff;
+    font-size: 16px;
+    line-height: 46px;
+    padding: 21px;
+    text-decoration: none;
+    }
+    .mobile-menu:hover{
+        background-color: #fff;
+    }
+    .mobile-menu:hover i{
+        color: #000;
+    }
+    div#mb-menu
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #navigation li a
+    {
+        display: block;
+    }
+    /* #navigation :nth-child(1)
+    {
+        display: inline-block;
+    } */
+    #navigation > li:first-child
+    {
+        display: inline-block;
+    }
+    #navigation .subnav
+    {
+        position: initial;
+        background-color: #333;
+    }
+    #navigation .subnav a{
+        color: #fff;
+        padding: 4px 40px;
+    }
+    #navigtion li:hover .subnav
+    {
+        display: block;
+    }
+    #content .member-avt
+    {
+        width: 60%;
+    }
+    .contact-info
+    {
+        margin-bottom: 32px;
+    }
+}
